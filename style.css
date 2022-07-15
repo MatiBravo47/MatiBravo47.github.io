@@ -29,11 +29,8 @@
 a{
     text-decoration: none;
     justify-content: left;
-    color: black;
+    color: rgb(112, 112, 112);
     font-size: 110%;
-}
-a:link{
-    color: black
 }
 a:hover{
     color: red;
@@ -53,6 +50,7 @@ p{
     color: white;
 }
 .icon{
-    width: 30px;
+    width: 50px;
+    margin:10px
 }
 
