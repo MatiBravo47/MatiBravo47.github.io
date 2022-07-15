@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.titulo {
+    background-color: #c33319;
+    color: white;
+    padding-left: 10px;
+    margin:8px 0px;
+}
+.titulo-pri {
+    background-color: #c33319;
+    color: white;
+    padding-left: 10px;
+}
+
+.navegacion { 
+    background-color: #f3f1ed;
+    text-align: center;
+    padding: 0px;
+}
+.foto {
+    max-width: 100px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    justify-content: left;
+    color: black;
+    font-size: 110%;
+}
+a:link{
+    color: black
+}
+a:hover{
+    color: red;
+}
+.card{
+    background-color: #f3f1ed
+}
+nav{
+    position: sticky;
+}
