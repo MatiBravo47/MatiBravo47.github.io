@@ -3,7 +3,7 @@
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
-.titulo {
+.titulo ,.titulo-pri{
     background-color: #c33319;
     color: white;
     padding-left: 10px;
@@ -11,9 +11,9 @@
     font-family: 'Bebas Neue', cursive;
 }
 .titulo-pri {
-    background-color: #c33319;
+    /* background-color: #c33319;
     color: white;
-    padding-left: 10px;
+    padding-left: 10px; */
     font-family: 'Bebas Neue', cursive;
 }
 

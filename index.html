@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
+    <!-- Vinculo Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -17,11 +18,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-3 navegacion">
-          <nav>                          
-                <div><img src="./img/Foto.jpg" class="rounded-circle foto" ></div>                            
+        <!-- col-md-3 -->
+        <div class="col-3 navegacion well">
+          <nav> 
+                <!-- no me funciona el img-responsive de bootstrap                           -->
+                <img src="./img/Foto.jpg" class="rounded-circle foto img-responsive" > 
+                <br><br>                           
                 <p><a  href="#sobreMi"><i class="fa-regular fa-user"></i>Sobre mi</a></p>            
               <!-- <a class="nav-link" href="#experiencia">Experiencia</a> -->
                 <p><a href="#proyectos"><i class="fa-regular fa-folder-open"></i>Proyectos</a></p>              
@@ -59,7 +63,7 @@
                 </div>
                 <div class="col-sm-6">
                   <div class="card">
-                    <div class="card-body">
+                    <div class="card-body ">
                       <h5 class="card-title">CRUD</h5>
                       <p class="card-text">MYSQL-HEROKU-PHP</p>
                       <a href="#" class="btn btn-danger">Link</a>
@@ -70,9 +74,8 @@
             </div>
           </section>
           <section id="habilidades">
-            <div class="h1 titulo">Habilidades</div>
-            <div class="contenido">
-              <p><span class="h5">Lenguajes:</span><img class="icon"src="./img/HTML.svg"><img class="icon" src="./img/JS.svg"><img class="icon" src="./img/CSS.svg"> </p>
+            <div class="h1 titulo ">Habilidades</div>
+            <div class="contenido"><p><span class="h5">Lenguajes:</span><img class="icon"src="./img/HTML.svg"><img class="icon" src="./img/JS.svg"><img class="icon" src="./img/CSS.svg"> </p>
               <p><span class="h5">Base de datos:</span><img class="icon" src="./img/MYSQL.svg"></p>
               <p><span class="h5">Frameworks:</span><img class="icon" src="./img/Flask.svg" ><img class="icon" src="./img/vue.svg"><img class="icon" src="./img/Bootstrap.svg"> </p>
               <p><span class="h5">Herramientas y tecnologias:</span><img class="icon" src="./img/git.svg"></p>
