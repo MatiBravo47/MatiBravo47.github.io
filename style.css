@@ -1,56 +1,42 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Raleway', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
 }
-.titulo ,.titulo-pri{
-    background-color: #c33319;
-    color: white;
-    padding-left: 10px;
-    margin:8px 0px;
-    font-family: 'Bebas Neue', cursive;
+.titulo,
+.titulo-pri {
+  background-color: #c33319;
+  color: white;
+  padding: 10px;
+  margin: 8px 0px;
+  font-family: "Bebas Neue", cursive;
 }
 .titulo-pri {
-    /* background-color: #c33319;
-    color: white;
-    padding-left: 10px; */
-    font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
 }
 
-.navegacion { 
-    background-color: #f3f1ed;
-    text-align: center;
-    padding: 0px;
-}
 .foto {
-    max-width: 100px;
-    height: auto;
+  max-width: 100px;
+  height: auto;
 }
-a{
-    text-decoration: none;
-    justify-content: left;
-    color: rgb(112, 112, 112);
-    font-size: 110%;
+
+
+.card {
+  background-color: #2f2f2f;
 }
-a:hover{
-    color: red;
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
-.card{
-    background-color: #f3f1ed
+.btn {
+  background-color: #c33319;
+  color: white;
 }
-nav{
-    position: sticky;
+.icon {
+  width: 80px;
+  margin: 10px;
 }
-p{
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-}
-.btn{
-    background-color: #c33319;
-    color: white;
-}
-.icon{
-    width: 50px;
-    margin:10px
-}
+.espacio{
+    margin-top: 67px;
+  }
 

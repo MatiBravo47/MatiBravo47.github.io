@@ -17,37 +17,63 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@300&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div class="container">
+  <body class=" text-white bg-dark" >
+    <!-- container global -->
+    <div class="container text-white bg-dark">
+    <div>
+    <div class="row">
+      <div class="col-12">
+    <header id="header">
+      <div>
+        <!-- Barra de navegacion  -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Matias Bravo Neron</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#sobreMi">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+</div>
+</div>
       <div class="row">
-        <!-- col-md-3 -->
-        <div class="col-3 navegacion well">
-          <nav> 
-                <!-- no me funciona el img-responsive de bootstrap                           -->
-                <img src="./img/Foto.jpg" class="rounded-circle foto img-responsive" > 
-                <br><br>                           
-                <p><a  href="#sobreMi"><i class="fa-regular fa-user"></i>Sobre mi</a></p>            
-              <!-- <a class="nav-link" href="#experiencia">Experiencia</a> -->
-                <p><a href="#proyectos"><i class="fa-regular fa-folder-open"></i>Proyectos</a></p>              
-                <p><a  href="#habilidades"><i class="fa-regular fa-flag"></i>Habilidades</a></p>                           
-                <p><a href="#contacto"><i class="fa-regular fa-paper-plane"></i>Contacto</a></p>             
-              <p><a href="#cv"><i class="fa-regular fa-file-lines"></i>CV</a></p>            
-          </nav>
-        </div>
-        <div class="col-9">
+        <div class="col-12">
+
+
           <section id="sobreMi">
-            <div class="h1 titulo-pri">Sobre mi</div>
+            <div class="h1 titulo-pri bg-dark text-center">Sobre mi</div>
             <div class="contenido">
               <p class="h5">Estudiante de Ingenieria de informatica</p>
               <p class="h5">Tecnico informatico</p>
               <p class="h5">Desarrollador Full-Stack Python</p>
             </div>
           </section>
-          <!-- <section id="experiencia" class="h1">Experiencia</section> -->
+
+
           <section id="proyectos">
-            <div class="h1 titulo ">Proyectos</div>
+            <div class="h1 titulo bg-dark text-center">Proyectos</div>
             <div class="contenido">
               <div class="row">
+
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body">
@@ -56,11 +82,11 @@
                       <a
                         href="https://matibravo47.github.io/Pagina_F1/" target="_blank"
                         class="btn btn-danger"
-                        >Link</a
-                      >
+                        >Link</a>
                     </div>
                   </div>
                 </div>
+
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body ">
@@ -72,17 +98,54 @@
                 </div>
               </div>
             </div>
+        <hr>
           </section>
-          <section id="habilidades">
-            <div class="h1 titulo ">Habilidades</div>
-            <div class="contenido"><p><span class="h5">Lenguajes:</span><img class="icon"src="./img/HTML.svg"><img class="icon" src="./img/JS.svg"><img class="icon" src="./img/CSS.svg"> </p>
-              <p><span class="h5">Base de datos:</span><img class="icon" src="./img/MYSQL.svg"></p>
-              <p><span class="h5">Frameworks:</span><img class="icon" src="./img/Flask.svg" ><img class="icon" src="./img/vue.svg"><img class="icon" src="./img/Bootstrap.svg"> </p>
-              <p><span class="h5">Herramientas y tecnologias:</span><img class="icon" src="./img/git.svg"></p>
+
+
+          <section class="text-center" id="habilidades">
+            <div class="h1 titulo bg-dark text-center">Habilidades</div>
+            <div>
+              <div class="contenido text-center"><span class="h2">Lenguajes:</span></div>
+              <div>
+                <img class="icon"src="./img/HTML.svg">
+                <img class="icon" src="./img/JS.svg">
+                <img class="icon" src="./img/CSS.svg">
+              </div>
+              <hr class="clase1">
+            </div>
+            <div>
+              <div><p><span class="h2">Base de datos:</span></p></div>
+              <div><img class="icon" src="./img/MYSQL.svg"></div>
+            <hr>
+            </div>
+            <div>
+              <div>
+                <div>
+                  <span class="h2">Frameworks:</span>
+                </div>
+                <div>
+                  <img class="icon" src="./img/Flask.svg">
+                  <img class="icon" src="./img/vue.svg">
+                  <img class="icon" src="./img/Bootstrap.svg">
+                </div>
+                <hr>
+              </div>
+              </div>
+              <div>
+                <div>
+                  <span class="h2">Herramientas y tecnologias:</span>
+                </div>
+              <div>
+                <img class="icon" src="./img/git.svg">
+              </div>
+              <hr>
+              </div>
             </div>
           </section>
+
+
           <section id="contacto">
-            <div class="h1 titulo">Contacto</div>
+            <div class="h1 titulo text-center bg-dark">Contacto</div>
             <div class="contenido">
               <a href="https://github.com/MatiBravo47"><p class="h5"><i class="fa-brands fa-github"></i>github.com/MatiBravo47</p></a>
               <a href="https://linkedin.com/in/matiasbravoneron/"><p class="h5"><i class="fa-solid fa-at"></i>linkedin.com/in/matiasbravoneron</p></a>
@@ -90,18 +153,22 @@
               <p class="h5"><i class="fa-brands fa-whatsapp"></i>2236001265</p>
             </div>
           </section>
+
+
           <section id="cv" class="h1">
-            <div class="h1 titulo">CV</div>
+            <div class="h1 titulo text-center bg-dark">CV</div>
             <div class="contenido"></div>
           </section>
         </div>
       </div>
     </div>
+    <!-- Script Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
     <script src="./main.js"></script>
+  </div>
   </body>
 </html>
