@@ -28,10 +28,6 @@ p {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
-.btn {
-  background-color: #c33319;
-  color: white;
-}
 .icon {
   width: 80px;
   margin: 10px;
@@ -39,4 +35,23 @@ p {
 .espacio{
     margin-top: 67px;
   }
+  a:link {
+    text-decoration: none;
+    color: #DC3545;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
 
+  .link {
+    color: #DC3545;
+  }
