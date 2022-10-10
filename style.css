@@ -32,26 +32,33 @@ p {
   width: 80px;
   margin: 10px;
 }
+.icon-small{
+  width: 50px;
+  margin: 10;
+}
 .espacio{
     margin-top: 67px;
   }
-  a:link {
-    text-decoration: none;
-    color: #DC3545;
-  }
+.enlace > a:link {
+  text-decoration: none;
+  color: #DC3545;
+}
   
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-  }
-  
-  a:active {
-    text-decoration: none;
-  }
+.enlace > a:visited {
+  text-decoration: none;
+  color: #DC3545;
+}
 
-  .link {
-    color: #DC3545;
-  }
+.enlace > a:hover {
+  text-decoration: none;
+  color: #DC3545;
+}
+
+.enlace > a:active {
+  text-decoration: none;
+  color: #DC3545;
+}
+
+.link {
+  color: #DC3545;
+}
